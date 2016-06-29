@@ -6,7 +6,7 @@ The server folder contains the actual Python script (`server.py`) that conducts 
 
 The server script is executable with no arguments: `python server.py`
 
-# Usage &amp; Sample Client
+# Usage &amp; Client Sample
 The Python-based web server outputs a JSON file accessible on `http://SERVER_URL:1337`. Each listed server in the configuration file is represented by an array containing all relevant details which can be parsed later by a client:
 {"status": bool, "desc": string, "name": string, "address": string}
 
